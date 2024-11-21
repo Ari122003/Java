@@ -4,6 +4,7 @@ class Car {
 
     String brand;
     int quantity;
+    int number;
 
     public void getInfo() {
         System.out.println("Brand: " + brand);

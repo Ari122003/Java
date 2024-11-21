@@ -1,6 +1,6 @@
 package OOPS;
 
-class Car {
+class Car1 {
 
     private static int count = 0;
 
@@ -12,7 +12,7 @@ class Car {
 
 public class SM {
     public static void main(String[] args) {
-        Car.funcc();
+        Car1.funcc();
     }
 
 }

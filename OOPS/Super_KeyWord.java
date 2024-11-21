@@ -1,9 +1,10 @@
 package OOPS;
 
-class Vehicle {
+class Vehicle2 {
     String type;
+    int number = 123;
 
-    public Vehicle(String type) {
+    public Vehicle2(String type) {
         this.type = type;
 
     }
@@ -14,7 +15,7 @@ class Vehicle {
 
 }
 
-class SportsCar extends Vehicle {
+class SportsCar extends Vehicle2 {
     String brand;
 
     public SportsCar(String type, String brand) {
@@ -27,6 +28,7 @@ class SportsCar extends Vehicle {
     public void displayBrand() {
         super.displayType();
         System.out.println("Brand: " + brand);
+        System.out.println("Number: " + super.number);
     }
 
 }

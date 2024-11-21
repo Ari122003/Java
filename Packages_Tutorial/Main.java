@@ -1,7 +1,13 @@
 package Packages_Tutorial;
 
-public class Package {
+import Packages_Tutorial.Developper;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Developper d = new Developper("Aritra","aa@gmail.com",50000,"Backend");
+
+        d.getInfor();
+
+
     }
 }

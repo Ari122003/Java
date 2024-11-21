@@ -1,16 +1,16 @@
 package OOPS;
 
-class Dog {
+class Dog1{
     String breed;
     int age;
 
     // Constructor
-    Dog() {
+    Dog1() {
         System.out.println("Default constructor called");
     }
 
     // Parameterized constructor
-    Dog(String breed, int age) {
+    Dog1(String breed, int age) {
         this.breed = breed;
         this.age = age;
         System.out.println("Parameterized constructor called");
@@ -26,7 +26,7 @@ class Dog {
 public class Constructor {
     public static void main(String[] args) {
 
-        Dog d1 = new Dog("Lab", 10);
+        Dog1 d1 = new Dog1("Lab", 10);
         d1.getInfo();
 
         // Dog d2 = new Dog();

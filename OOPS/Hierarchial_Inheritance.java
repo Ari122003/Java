@@ -1,15 +1,12 @@
 package OOPS;
 
-class Car {
-    int number;
-}
+import OOPS.Classes_and_Objects;
 
 class FamilyCar extends Car {
     String brand;
     int price;
 
     FamilyCar(int number, String brand, int price) {
-        this.number = number;
         this.brand = brand;
         this.price = price;
     }
@@ -20,7 +17,7 @@ class SportCar extends Car {
     int price;
 
     SportCar(int number, String brand, int price) {
-        this.number = number;
+
         this.brand = brand;
         this.price = price;
     }
