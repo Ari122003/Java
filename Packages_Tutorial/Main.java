@@ -1,6 +1,5 @@
 package Packages_Tutorial;
 
-import Packages_Tutorial.Developper;
 
 public class Main {
     public static void main(String[] args) {

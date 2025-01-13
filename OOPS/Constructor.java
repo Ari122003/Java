@@ -1,6 +1,6 @@
 package OOPS;
 
-class Dog1{
+class Dog1 {
     String breed;
     int age;
 

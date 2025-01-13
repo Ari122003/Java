@@ -25,6 +25,8 @@ public class Abstract_Class {
         Dog d = new Dog();
         d.walk();
 
+        // Animal a = new Animal(); // Error: abstract class cannot be objectifired
+
         Human h = new Human();
         h.walk();
     }
