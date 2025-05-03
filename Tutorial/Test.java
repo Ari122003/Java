@@ -1,4 +1,5 @@
-package OOPS;
+
+import OOPS.ImaginaryNumber;
 
 public class Test {
     public static void main(String[] args) {

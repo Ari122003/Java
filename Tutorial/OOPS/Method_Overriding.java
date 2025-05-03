@@ -1,4 +1,4 @@
-
+package OOPS;
 class C{
     void method(){
         System.out.println("From C");

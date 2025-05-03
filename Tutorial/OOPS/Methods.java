@@ -1,13 +1,9 @@
-
+package OOPS;
 class Adder{
     int add(int a ,int b){
         return a+b;
     }
 }
-
-
-
-
 
 public class Methods {
     int add(int a ,int b){

@@ -1,4 +1,4 @@
-
+package OOPS;
 class Calculator{
 
     protected int x = 999;
@@ -12,7 +12,7 @@ class Calculator{
     }
 }
 
-class AdvancedCalculator extends Calculator{
+ class AdvancedCalculator extends Calculator{
     void multiply(int a, int b){
 
         System.out.println(a*b);

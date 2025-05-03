@@ -1,4 +1,4 @@
-
+package OOPS;
 
 class dumble {
     int wgt;

@@ -1,3 +1,6 @@
+package OOPS;
+
+
 
 class SB{
     static  int x;
@@ -13,10 +16,6 @@ class SB{
     }
 
 }
-
-
-
-
 
 public class Static_blocks {
     public static void main(String[] args) throws ClassNotFoundException
