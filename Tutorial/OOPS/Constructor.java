@@ -1,13 +1,11 @@
-package OOPS;
 
 class dumble {
     int wgt;
 
-    dumble(int w){
-        wgt=w;
+    dumble(int w) {
+        wgt = w;
     }
 }
-
 
 public class Constructor {
     int x;
@@ -15,11 +13,12 @@ public class Constructor {
     Constructor(int x) {
         this.x = x;
     }
+
     public static void main(String[] args) {
-        Constructor c=new Constructor(10);
+        Constructor c = new Constructor(10);
         System.out.println(c.x);
 
-        dumble d=new dumble(20);
+        dumble d = new dumble(20);
         System.out.println(d.wgt);
     }
 }
