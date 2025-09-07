@@ -18,7 +18,7 @@ public class Creation {
 
       Arrays.sort(arr); // sorts the array by using quick sort algo
 
-        Arrays.reverse
+
 
 
 

@@ -1,5 +1,4 @@
 public class TypeCasting {
-    class TypeCastingDemo {
     public static void main(String[] args) {
         // ---------- Upcasting (Widening Conversion) ----------
         // ✅ Done automatically by Java (safe, no data loss in most cases)
@@ -42,6 +41,6 @@ public class TypeCasting {
         // Unsafe downcasting (will throw ClassCastException at runtime)
         // Integer num = (Integer) obj;  // ❌ obj is a String, not Integer
     }
-}
+
 
 }
