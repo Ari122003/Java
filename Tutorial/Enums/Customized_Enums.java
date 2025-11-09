@@ -1,4 +1,4 @@
-
+package Enums;
 
 enum Phone{
     Iphone(100),Samsung(200),Realme(300),Motorola(400);
