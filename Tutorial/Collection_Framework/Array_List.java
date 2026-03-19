@@ -5,6 +5,8 @@ import java.util.*;
 public class Array_List {
     public static void main(String[] args) {
 
+        int max = Math.max()
+
         // ✅ Constructors
         ArrayList<String> list = new ArrayList<>();      // creates empty ArrayList
         ArrayList<String> list2 = new ArrayList<>(20);   // initial capacity = 20
