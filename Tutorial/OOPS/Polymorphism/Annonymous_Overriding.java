@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Polymorphism;
 
 // An anonymous class is a class without a declared name, created for one-time use.
 class My {
