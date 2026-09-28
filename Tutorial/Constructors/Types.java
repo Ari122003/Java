@@ -5,16 +5,14 @@ public class Types {
 
     String y;
 
-    public Types(){
-//        Without paramters
+    // Without paramters
+    public Types() {
     }
 
-    public Types(int x, String y){
+    // with parameters
+    public Types(int x, String y) {
         this.x = x;
         this.y = y;
-//        with parameters
     }
-
-//    Constructor overloading
 
 }

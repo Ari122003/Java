@@ -1,3 +1,5 @@
+
+
 public class DataTypes {
     public static void main(String[] args) {
         byte a = 100;  // byte: 1 byte (8 bits), Range: -2^7 to 2^7 - 1
